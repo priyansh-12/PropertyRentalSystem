@@ -1,0 +1,15 @@
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+<display-name>PropertyRentalSystem</display-name>
+<welcome-file-list>
+<welcome-file>LoginPage.html</welcome-file>
+</welcome-file-list>
+<servlet>
+<servlet-name>Login</servlet-name>
+<servlet-class>  Login.LoginPageServlet.java  </servlet-class>
+</servlet>
+ <error-page>  
+  <error-code>500</error-code>  
+  <location>/errorpage.jsp</location>  
+  </error-page>  
+ 
+</web-app>

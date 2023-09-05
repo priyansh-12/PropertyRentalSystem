@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+*
+    {
+     
+        box-sizing: border-box;
+    }
+  a{
+    text-decoration: none;
+    padding:1em;
+  }
+  li
+  {
+    list-style:none;
+
+}
+.header
+{
+    margin-top: 0%;
+    background-color:rgb(255 255, 255);
+    margin-top: 0px;
+}
+.menu
+{
+    display:flex;
+  flex-direction:row;
+    align-items: center;
+}
+.menu-ul
+{
+    display: inline-block;
+}
+.div1
+{
+
+  display: inline-block;   
+}
+.div2
+{
+    margin-left:auto;
+}
+
+.menu-li
+{
+
+    display:inline-block;
+}
+.menu-head
+{
+ margin-left: 3rem;
+    display:inline-block;
+   color:rgb(44, 37, 37)
+}
+.menu-A
+{
+    margin-right: 1rem;
+    text-decoration: none;
+    font-size: medium;
+    color: #2b4848;
+  width: 9em;
+}
+.menu-A:hover
+{
+    background-color:rgb(89, 138, 187);
+    color: #0d476b;
+    border-radius: 1em;
+    text-decoration: none;
+}
+/* image */
+.img
+{
+    height: 40rem;
+    width:100%;
+   /* filter: blur(8px);
+  -webkit-filter: blur(8px);*/
+}
+.form
+{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+    background-color:rgb(223, 219, 219);
+    width: 28rem;
+    height: 30rem;
+    padding-left: 1em;
+    padding-right: 1em;
+ 
+}
+.input
+{
+ margin-left: 1rem;
+    width: 23rem;
+    height: 3em;
+    margin-top: 1em;
+    border-radius: 1em;
+    border-style: none;
+    color: black;
+}
+#butt
+{
+    margin-top: 2em;
+    width: 6rem;
+    margin-left: 1em;
+}
+.form-div
+{
+    text-align:center ;
+}
+.button-7 {
+    height: 2.5rem;
+    background-color: #0a246c;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+  
+  .button-7:hover,
+  .button-7:focus {
+    background-color: #07c;
+  }
+  
+  .button-7:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+  }
+  
+  .button-7:active {
+    background-color: #0d7ada;
+    box-shadow: none;
+    color: #ffffff;
+  }
+  .a-tag
+  {
+    color: #ffffff;
+  }
